@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StorageList
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <storage android:primary="true" android:allowMassStorage="true" android:mountPoint="/storage/sdcard0" android:storageDescription="@string/storage_phone" />
+    <storage android:primary="false" android:removable="true" android:allowMassStorage="true" android:mountPoint="/storage/sdcard1" android:storageDescription="@string/storage_sd_card" />
+    <storage android:primary="false" android:removable="true" android:mountPoint="/mnt/usbotg" android:storageDescription="@string/storage_external_usb" />
+</StorageList>

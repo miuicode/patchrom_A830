@@ -1,0 +1,32 @@
+--- a/Settings/res/values/arrays.xml	2013-04-13 16:58:38.783407058 +0800
++++ b/Settings/res/values/arrays.xml	2013-04-13 16:59:20.463407061 +0800
+@@ -510,13 +510,13 @@
+         <item>9000</item>
+     </string-array>
+     <string-array name="led_color_values">
+-        <item>blue</item>
+         <item>red</item>
+         <item>yellow</item>
+         <item>green</item>
+         <item>cyan</item>
+         <item>white</item>
+         <item>\#FFAA00AA</item>
++        <item>blue</item>
+     </string-array>
+     <string-array name="mi1_led_color_values">
+         <item>blue</item>
+@@ -535,13 +535,13 @@
+         <item>Purple</item>
+     </string-array>
+     <string-array name="led_color_entries">
+-        <item>Blue</item>
+         <item>Red</item>
+         <item>Yellow</item>
+         <item>Green</item>
+         <item>Cyan</item>
+         <item>White</item>
+         <item>Violet</item>
++        <item>Blue</item>
+     </string-array>
+     <string-array name="always_enabled_app_list">
+         <item>com.android.providers.applications</item>

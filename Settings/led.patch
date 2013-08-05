@@ -1,0 +1,11 @@
+--- a/Settings/smali/com/android/settings/LedSettings.smali	2013-06-01 12:15:32.580579422 +0800
++++ b/Settings/smali/com/android/settings/LedSettings.smali	2013-06-01 12:15:38.596579425 +0800
+@@ -489,6 +489,8 @@
+ 
+     move-result v4
+ 
++    const v4, 0xff00ff00
++
+     .local v4, defaultColor:I
+     invoke-virtual {p0}, Lcom/android/settings/LedSettings;->getContentResolver()Landroid/content/ContentResolver;
+ 

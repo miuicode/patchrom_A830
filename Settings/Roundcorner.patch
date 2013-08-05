@@ -1,0 +1,11 @@
+--- a/Settings/smali/com/android/settings/DevelopmentSettings.smali	2013-04-25 15:07:42.577437090 +0800
++++ b/Settings/smali/com/android/settings/DevelopmentSettings.smali	2013-04-25 15:08:50.985437094 +0800
+@@ -1719,7 +1719,7 @@
+     .end annotation
+ 
+     .prologue
+-    const/4 v0, 0x1
++    const/4 v0, 0x0
+ 
+     iget-object v1, p0, Lcom/android/settings/DevelopmentSettings;->mShowRoundedCorners:Landroid/preference/CheckBoxPreference;
+ 
